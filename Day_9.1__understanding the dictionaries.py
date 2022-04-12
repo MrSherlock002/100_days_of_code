@@ -38,3 +38,15 @@ for score in student_scores:
     
 # 🚨 Don't change the code below 👇
 print(student_grades)
+print("\n")
+#Nesting a List in a Dictionary
+travel_log = {"France": ["Paris", "Lille", "Dijon"],
+  "Germany": ["Berlin", "Hamburg", "Stuttgart","Frankfurt"],}
+
+print(travel_log)
+print("\n")
+#Nesting Dictionary in a Dictionary
+
+travel_log = {"France": {"cities_visited":["Paris", "Lille", "Dijon"],"Total_visits":12},
+  "Germany": {"cities_visited":["Berlin", "Hamburg", "Stuttgart","Frankfurt"],"total_visits":5 },}
+print(travel_log)
